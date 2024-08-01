@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+one:
+  name: Sample Product One
+  description: This is a sample product description
+  price: 10.99
+  url: http://example.com/product1
+  quantity: 5
+
+two:
+  name: Sample Product Two
+  description: This is another sample product description
+  price: 20.99
+  url: http://example.com/product2
+  quantity: 10
+
