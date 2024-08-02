@@ -11,21 +11,21 @@
 default: &default
   adapter: sqlserver
   encoding: utf8
-  username: sa
-  password: 1@adminsis
-  host: localhost
+  username: reykmrm_SQLLogin_1
+  password: rcxlteetj9
+  host: rubyShopTest.mssql.somee.com
   port: 1433 
 
 development:
   <<: *default
-  database: shop_test_Ruby
+  database: rubyShopTest
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: shop_test_Ruby
+  database: rubyShopTest
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: shop_test_Ruby
+  database: rubyShopTest
   username: sa
-  password: <%= ENV["1@adminsis"] %>
+  password: <%= ENV["rcxlteetj9"] %>

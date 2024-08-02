@@ -298,6 +298,7 @@ DEPENDENCIES
   selenium-webdriver
   sprockets-rails
   stimulus-rails
+  tiny_tds
   turbo-rails
   tzinfo-data
   web-console
